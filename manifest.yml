@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: FleetMangementApp
+  host: FleetMangementApp
+  disk_quota: 1024M
+  services:
+  - FleetMangementApp-cloudantNoSQLDB
+  - FleetMangementApp-iotf-service
